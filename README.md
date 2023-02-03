@@ -1,4 +1,30 @@
-# Live Demo : https://notestakerhareesh.netlify.app/
+
+## Project Name- Notes Taker
+
+### Live Demo : https://notestakerhareesh.netlify.app/
+
+## Resources used:
+   - React.js
+   - HTML
+   - CSS
+   - JavaScript
+
+## Description:
+- This project we can add, remove the notes which are taken.
+- We can save data in browser cache memory
+- Worked with React, JavaScript, Html, Css etc. to build end to end solution for project.
+- This project deploy using netlify
+
+## Below you will find sample images :)
+
+![](images/0.png)
+
+
+### OVERVIEW
+
+![](images/1.png)
+
+![](images/2.png)
 
 
 ## Getting Started with Create React App
