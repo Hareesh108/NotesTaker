@@ -15,7 +15,7 @@
 - Worked with React, JavaScript, Html, Css etc. to build end to end solution for project.
 - This project deploy using netlify
 
-## Below you will find sample images :)
+<!-- ## Below you will find sample images :)
 
 ![](images/0.png)
 
@@ -24,7 +24,7 @@
 
 ![](images/1.png)
 
-![](images/2.png)
+![](images/2.png) -->
 
 
 ## Getting Started with Create React App
