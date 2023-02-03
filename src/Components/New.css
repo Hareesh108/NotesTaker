@@ -1,0 +1,116 @@
+*{
+    margin: 10px;
+}
+
+h1{
+    color: coral;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(244, 169, 30);
+    border: 1px dotted;
+    padding: 5px;
+}
+
+.text{
+    margin: 30px;
+
+}
+label{
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    color: rgb(243, 109, 0);
+    
+}
+
+textarea,input{
+    padding: 5px;
+    width: 98%;
+    font-size: 20px;
+}
+input:hover{
+    background-color: rgb(249, 17, 133);
+}
+
+button{
+    border: 1px solid;
+    padding: 5px;
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    margin-left: 45%;
+}
+#save:hover{
+    background-color: rgb(18, 169, 18);
+}
+
+#delete:hover{
+    background-color: rgb(236, 31, 31);
+}
+
+ul{
+    margin-top: 0px;
+    padding: 10px;
+}
+li{
+    color: rgb(65, 241, 21);
+}
+
+
+@media (min-width:350px) and (max-width:700px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+    h1{
+        margin-top: 40px;
+        font-size: large;
+    }
+
+    h4{
+        font-size:small;
+    }
+    
+    h3{
+        font-size: small;
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(244, 169, 30);
+        border: 1px dotted;
+        padding: 5px;
+    }
+
+    .text{
+        margin-top: 40px;
+    
+    }
+    label{
+        width: 140px;
+        border: none;
+        color: rgb(243, 109, 0);
+        border: 1px dashed rgb(90, 231, 108);
+        font-size: small;
+        margin: 0 auto;
+    }
+    
+    textarea,input{
+        padding: 5px;
+        margin-top: 15px;
+        width: 98%;
+        font-size: 15px;
+    }
+    input:hover{
+        background-color: rgb(249, 17, 133);
+    }
+    
+    button{
+        border: 1px solid;
+        padding: 5px;
+        height: 30px;
+        width: 100px;
+        margin: 10px;
+    }
+}

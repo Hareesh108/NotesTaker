@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import "./index.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Root, { loader as rootLoader } from "./Components/Root";
+import NewNote, { action as newNoteAction } from "./Components/New";
+import Note, {
+  loader as noteLoader,
+  action as noteAction,
+} from "./Components/Note";
+
+let router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    loader: rootLoader,
+    children: [
+      {
+        path: "new",
+        element: <NewNote />,
+        action: newNoteAction,
+      },
+      {
+        path: "note/:noteId",
+        element: <Note />,
+        loader: noteLoader,
+        action: noteAction,
+        errorElement: <h2>Note not found</h2>,
+      },
+    ],
+  },
+]);
+
+if (import.meta.hot) {
+  import.meta.hot.dispose(() => router.dispose());
 }
 
-export default App;
+export default function App() {
+  return <RouterProvider router={router} />;
+}
+
