@@ -2,7 +2,7 @@
 
 A React-based note management application that lets users create, organize, and persist notes in their browser. Deployed on Netlify.
 
-[Live Demo](https://notestakerhareesh.netlify.app/) | [![Netlify Status](https://api.netlify.com/api/v1/badges/YOUR_DEPLOY_ID/deploy-status)](https://app.netlify.com/sites/YOUR_SITE_NAME/deploys)
+[Live Demo](https://notestakerhareesh.netlify.app/) 
 
 ## 🚀 Features
 - Create and delete notes with titles & content
